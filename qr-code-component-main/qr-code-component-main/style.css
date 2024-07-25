@@ -1,0 +1,36 @@
+.attribution { font-size: 40px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+p{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20px;
+}
+.whole{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 45vw;
+    background-color: hsl(0, 0%, 100%);
+    margin: 3rem auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+img{
+    display: block;
+    width: 40vw;
+    height: 75vh;
+    margin: 2em auto; 
+    border-radius: 4%;
+    background-size: contain;
+    object-fit:fill;
+}
+
